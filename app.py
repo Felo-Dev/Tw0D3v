@@ -15,7 +15,6 @@ def create_app():
         resultado =  "hola mundo" 
         # Devolver la respuesta como JSON
         return jsonify(resultado)
-
     return app
 
 if __name__ == '__main__':
